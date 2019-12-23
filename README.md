@@ -13,4 +13,4 @@
 5、运行face_recognize.py即可  
 
 # 效果
-![result](/result/result.png)  
+![result](/result/result.png =300x))  
