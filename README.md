@@ -1,5 +1,5 @@
 # keras-face-recognition
-这是一个基于mtcnn和facenet的人脸识别模，可实现在线人脸识别。
+这是一个基于mtcnn和facenet的人脸识别模型，可实现在线人脸识别。
 
 # 文件下载
 训练所需的facenet_keras.h5可以在Release里面下载。  
