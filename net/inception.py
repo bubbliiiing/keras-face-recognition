@@ -1,17 +1,10 @@
 from functools import partial
-from keras.models import Model
-from keras.layers import Activation
-from keras.layers import BatchNormalization
-from keras.layers import Concatenate
-from keras.layers import Conv2D
-from keras.layers import Dense
-from keras.layers import Dropout
-from keras.layers import GlobalAveragePooling2D
-from keras.layers import Input
-from keras.layers import Lambda
-from keras.layers import MaxPooling2D
-from keras.layers import add
+
 from keras import backend as K
+from keras.layers import (Activation, BatchNormalization, Concatenate, Conv2D,
+                          Dense, Dropout, GlobalAveragePooling2D, Input,
+                          Lambda, MaxPooling2D, add)
+from keras.models import Model
 
 
 def scaling(x, scale):
